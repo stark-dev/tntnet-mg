@@ -168,6 +168,7 @@ rm -f %{buildroot}/%{_libdir}/*.*a
 %dir %{_includedir}/tnt/
 %{_includedir}/tnt/*.h
 %{_libdir}/*.so
+%{_libdir}/pkgconfig/*.pc
 
 %files runtime
 %defattr(-,root,root)
